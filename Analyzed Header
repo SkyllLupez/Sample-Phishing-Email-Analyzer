@@ -1,0 +1,14 @@
+Header Name	Header Value
+Delivered-To	victim@example.com
+X-Received	by 2002:a05:6214:2136:b0:56a:6f5f:a7c7 with SMTP id s22-20020a056214213600b0056a6f5fa7c7mr1012256qvb.34.1716308232540; Tue, 21 May 2024 09:17:12 -0700 (PDT)
+Return-Path	<alert@hotstar-verification.com>
+Received-SPF	fail (google.com: domain of alert@hotstar-verification.com does not designate 203.0.113.45 as permitted sender) client-ip=203.0.113.45;
+Authentication-Results	mx.google.com; spf=fail (google.com: domain of alert@hotstar-verification.com does not designate 203.0.113.45 as permitted sender) smtp.mailfrom=alert@hotstar-verification.com; dkim=fail header.i=@hotstar-verification.com; dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=hotstar-verification.com
+From	"Hotstar Support" <alert@hotstar-verification.com>
+To	victim@example.com
+Subject	Action Required: Payment Failure on Your Hotstar Subscription
+Date	Tue, 21 May 2024 16:17:10 +0000
+Message-ID	<4b6f7e1a84fd6d7b@hotstar-verification.com>
+MIME-Version	1.0
+Content-Type	text/html; charset="UTF-8"
+Content-Transfer-Encoding	quoted-printable

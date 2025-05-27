@@ -1,8 +1,9 @@
-This e-mail shows classic phishing pointers like Spoofed sender character, Deluding connect, Pressing call to activity and Specialized header ruddy banners
+This email shows classic phishing pointers like Spoofed sender character, misleading and threatening tone and warns of failed payment and demands immediate billing update via fake link.
+SPF, DKIM, and DMARC — all failed in header analysis when analyzed in mxtoolbox.com to analyze header.
 
 Prescribed Reaction:
 
 Square the sender space
-Report to security group
+Report to a security group
 Teach clients on spotting such emails
 Stamp comparable designs in spam/phishing channels 

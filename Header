@@ -1,0 +1,24 @@
+Delivered-To: victim@example.com
+Received: by 2002:a0c:bc8:3434:0:0:0:0 with SMTP id d52csp244294qve;
+        Tue, 21 May 2024 09:17:12 -0700 (PDT)
+X-Received: by 2002:a05:6214:2136:b0:56a:6f5f:a7c7 with SMTP id s22-20020a056214213600b0056a6f5fa7c7mr1012256qvb.34.1716308232540;
+        Tue, 21 May 2024 09:17:12 -0700 (PDT)
+Return-Path: <alert@hotstar-verification.com>
+Received: from smtp.hotstar-verification.com (smtp.hotstar-verification.com. [203.0.113.45])
+        by mx.google.com with ESMTPS id f18si3954520qke.44.2024.05.21.09.17.11
+        for <victim@example.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 21 May 2024 09:17:12 -0700 (PDT)
+Received-SPF: fail (google.com: domain of alert@hotstar-verification.com does not designate 203.0.113.45 as permitted sender) client-ip=203.0.113.45;
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of alert@hotstar-verification.com does not designate 203.0.113.45 as permitted sender) smtp.mailfrom=alert@hotstar-verification.com;
+       dkim=fail header.i=@hotstar-verification.com;
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=hotstar-verification.com
+From: "Hotstar Support" <alert@hotstar-verification.com>
+To: victim@example.com
+Subject: Action Required: Payment Failure on Your Hotstar Subscription
+Date: Tue, 21 May 2024 16:17:10 +0000
+Message-ID: <4b6f7e1a84fd6d7b@hotstar-verification.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
